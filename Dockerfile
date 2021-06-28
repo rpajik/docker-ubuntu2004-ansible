@@ -18,6 +18,8 @@ RUN apt-get update \
        python3-setuptools \
        python3-pip \
        python3-yaml \
+       python3-apt \
+       procps \
        software-properties-common \
        rsyslog systemd systemd-cron sudo iproute2 \
     && apt-get clean \
